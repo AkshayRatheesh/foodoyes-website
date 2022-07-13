@@ -1073,7 +1073,7 @@ font-style: italic;
 	font-size: 30px;
 	padding: 15px 0;
 	font-weight: 300;
-	font-family: 'Playfair Display', serif;
+    font-family: 'Roboto', sans-serif;
 	text-transform: capitalize;
 	color: white !important;
 	text-decoration: none;
