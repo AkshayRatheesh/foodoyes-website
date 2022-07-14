@@ -306,7 +306,7 @@ img {
 	border-top-left-radius: 10px;
 	border-top-right-radius: 10px;
 	color: #3e3e3e;
-ransition-property: background;
+transition-property: background;
   transition-duration: 0.5s;
   transition-timing-function: linear;
 }
@@ -1321,12 +1321,3 @@ font-style: italic;
 
 	
 	
-
-
-
-
-
-
-
-
-
