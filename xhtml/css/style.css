@@ -939,7 +939,7 @@ font-style: italic;
 	position: relative;
 	width: 50%;
 	float: right;
-		padding: 5% 0;
+	padding: 4% 0;
 	background: #f4f4f4;
 }		
 .footer_main_right_inner_top{	
@@ -1106,129 +1106,7 @@ nav {
   transition: transform 0.6s cubic-bezier(0, 0, 0, 0.91), -webkit-transform 0.6s cubic-bezier(0, 0, 0, 0.91);
   padding-top: 3.2rem;
   z-index:990;
-  
-}
-::-webkit-scrollbar {
-    width: 0px;  /* remove scrollbar space */
-    background: transparent;  /* optional: just make scrollbar invisible */
-}
-.menu-open nav {
-  -webkit-transform: translateX(0);
-          transform: translateX(0);
-}
-.menu_inner {
-	position:relative;
-	width:80%;
-}
-.menu_inner_left {
-	position:relative;
-	width:50%;
-	float:left;
-}
-.menu_inner_right {
-	position:relative;
-	width:50%;
-	float:right;
-}
-.menu_inner h1 {
-	font-size:40px;
-	color:#000;
-	line-height:40px;
-	font-weight:normal;
-	padding-bottom:20px;
-}
-.menu_inner h1::after {
-    position: relative;
-    width: 20%;
-    height: 1px;
-    background: #000;
-    content: '';
-    display: block;
-    z-index: 9999;
-    top: 0.7em;
-    float: left;
-    transition-duration: 1s;
-}
-.menu_inner h1:hover::after {
-	width:50%;
-	 transition-duration:1s;
-}
-nav ul li .menu_inner h1:hover {
-	color:#3d93d0;
-}
-.menu_inner h1.active {
-	color:#3d93d0;
-}
-.menu_inner p {
-	font-size:16px;
-	color:#000;
-	line-height:30px;
-}
-
-nav ul {
-	position:relative;
-	width:100%;
-	margin-left:10%;
-
-}
-nav ul li {
-  width:100%;
-  padding:1% 0;
-  float:left;
-   cursor:pointer;
-}
-nav ul li a {
-	font-size:16px;
-	 text-decoration:none;
-	 outline:none;
-}
-
-.menu_inner_logo {
-	position:relative;
-	width:25%;
-	margin:0;
-}
-.menu_inner_logo img {
-	width:100%;
-}
-.menu_area {
-	position:absolute;
-	width:100%;
-	top:0;
-	z-index:999;
-}
-
-/*ABOUT SECTION*/
-.menu_right_left {
-	position:relative;
-	width: 100%;
-	top:0;
-	right:0;
-	padding:30px 0;
-	z-index:999;
-
-}
-.menu_right_left ul {
-	margin-right:0;
-	width:auto;
-	float:right;
-}
-.menu_right_left ul li {
-	margin:0 0 0 40px;
-	width:auto;
-	float:left;
-}
-.menu_right_left ul li p {
-	color:#FFF;
-	text-align:left;
-	font-size:16px;
-	font-weight:400;
-	line-height:10px;
-	font-family: 'Marcellus', serif;
-}
-.menu_right_left ul li p span {
-	  font-family: 'Quicksand', sans-serif;
-}
+ 
   @media screen and (max-width: 768px) {
 	ul.menu__list,
 	div.menu__brand {
